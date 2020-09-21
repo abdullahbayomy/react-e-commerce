@@ -1,0 +1,51 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.Container:hover {
+  transform: scale(1.02);
+}
+
+.ProductImg {
+  grid-column: 1 / span 2;
+}
+
+.ProductName {
+  grid-column: 1 / span 2;
+}
+
+.Avalible {
+  margin: auto 0;
+}
+
+.Price {
+  color: var(--primary-color);
+  padding-left: 1rem;
+}
+
+.CartBtn {
+  padding-left: 0.6rem;
+}
+
+.CartBtn button {
+  border-radius: 15px;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.CartBtn button:hover {
+  color: rgb(76, 212, 212);
+}
+
+.CartBtn button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.Container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.TotalCost {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.Items {
+  margin: 10rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Btn {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: rgb(53, 90, 211);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.7rem 1.9rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0s ease-in-out;
+}
+
+.Btn:focus {
+  outline: none;
+}
+
+.Btn:hover {
+  background-color: rgb(41, 78, 201);
+}
+
+.Btn:active {
+  transform: translateY(2px);
+}

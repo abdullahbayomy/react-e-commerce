@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  color: #fff;
+  z-index: 500;
+}
+
+ul li a {
+  padding: 1rem;
+  margin: 0 0.5rem;
+  border: none;
+}
+
+ul li a:hover {
+  animation: animateborderBottom 0.3s forwards ease-in-out;
+}
+
+@keyframes animateborderBottom {
+  from {
+    border-bottom: 0px solid transparent;
+  }
+  to {
+    border-bottom: 2px solid rgb(31, 93, 175);
+  }
+}

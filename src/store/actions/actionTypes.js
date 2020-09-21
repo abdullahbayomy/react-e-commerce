@@ -1,0 +1,10 @@
+export const SET_DATA = 'SET_DATA';
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const ADD_To_CART = 'ADD_To_CART';
+export const INCART = 'INCART';
+export const INIT_TOTAL = 'INIT_ToTAL';
+export const TOTALCOST = 'TOTALCOST';
+export const DEC_TOTAL_COST = 'DEC_TOTAL_COST';
+export const SUBAVALIBLE = 'SUBAVALIBLE';
+export const INCAVALIBLE = 'INCAVALIBLE';
+export const DELETE_ITEM = 'DELETE_ITEM';

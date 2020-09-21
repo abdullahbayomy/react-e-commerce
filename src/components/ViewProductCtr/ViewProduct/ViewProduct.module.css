@@ -1,0 +1,78 @@
+.Container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 120px;
+  width: 650px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin: 0.3rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.Container * {
+  margin: auto 0;
+}
+
+.Container:hover {
+  background-color: #f3f3f3;
+}
+
+.Price {
+  color: var(--primary-color);
+}
+
+.CartBtn button {
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: var(--danger-color);
+}
+
+.CartBtn button:hover {
+  font-size: 0.8rem;
+  color: #fa6574;
+}
+
+.CartBtn button:active {
+  transform: translateY(1px);
+}
+
+.QuantityContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Icon {
+  margin-top: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.Icon .Safe {
+  color: var(--success-color);
+}
+
+.Icon .Safe:hover {
+  color: rgb(76, 212, 144);
+}
+
+.Icon .Danger {
+  color: var(--danger-color);
+}
+
+.Icon .Danger:hover {
+  color: #fa6574;
+}
+
+.Icon .Safe:hover,
+.Icon .Danger:hover {
+  transform: scale(1.05);
+}
+
+.Icon .Safe:active,
+.Icon .Danger:active {
+  transform: translateY(1px);
+}

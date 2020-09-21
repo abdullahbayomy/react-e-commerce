@@ -47,3 +47,43 @@
 .Btn:active {
   transform: translateY(2px);
 }
+
+.BtnRed {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: var(--danger-color);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.7rem 1.9rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0s ease-in-out;
+}
+
+.BtnRed:focus {
+  outline: none;
+}
+
+.BtnRed:hover {
+  background-color: #f34355;
+}
+
+.BtnRed:active {
+  transform: translateY(2px);
+}
+
+.Order .TotalCost {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.BtnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.BtnRed {
+}

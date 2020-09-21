@@ -5,7 +5,7 @@
   z-index: 540;
   background-color: #fff;
   font-family: 'Tajawal';
-  min-width: 870px;
+  min-width: 770px;
   max-height: 500px;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -14,7 +14,6 @@
   font-size: 1.1rem;
   box-sizing: border-box;
   top: 20%;
-  left: 22%;
   overflow-y: auto;
   transition: all 0.3s ease-in-out;
 }

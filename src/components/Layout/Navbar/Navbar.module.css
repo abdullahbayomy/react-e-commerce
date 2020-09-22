@@ -7,6 +7,10 @@
   z-index: 500;
 }
 
+ul {
+  display: flex;
+}
+
 ul li a {
   padding: 1rem;
   margin: 0 0.5rem;
@@ -23,5 +27,23 @@ ul li a:hover {
   }
   to {
     border-bottom: 2px solid rgb(31, 93, 175);
+  }
+}
+
+@media (max-width: 768px) {
+  h4 {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  ul li {
+    text-align: center;
+    margin: 0.2rem 0;
+    padding: 0.7rem;
   }
 }

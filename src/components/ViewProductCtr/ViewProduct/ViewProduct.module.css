@@ -76,3 +76,20 @@
 .Icon .Danger:active {
   transform: translateY(1px);
 }
+
+@media (max-width: 768px) {
+  .Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    margin: 0.3rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+}

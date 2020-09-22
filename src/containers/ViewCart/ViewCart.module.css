@@ -87,3 +87,9 @@
 
 .BtnRed {
 }
+
+@media (max-width: 768px) {
+  .Items {
+    margin: 0;
+  }
+}
